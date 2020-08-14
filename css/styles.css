@@ -1,0 +1,59 @@
+body {
+  background-color: #eeeeee;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 70px;
+}
+
+h2{
+  font-family:'Merriweather', serif;
+  font-size: 30px;
+}
+
+ p{
+   color: black;
+   font-size: 20px;
+   margin:0;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+.topcontainer{
+  background-color: #00adb5;
+  margin-top: 0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middlecontainer{
+  background-color: #eaeaea;
+}
+
+.bottomcontainer{
+  background-color: #eaeaea;
+}
+
+.headertext{
+  color: white;
+  font-size: 20px;
+}
+ .training{
+   text-decoration: underline;
+ }
+.cloud2{
+  position: absolute;
+  top: 250px;
+  left: 25%;
+
+}
+.cloud1{
+  position:absolute;
+  width: 200px;
+  top: 50px;
+  right: 25%;
+}
