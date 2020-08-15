@@ -8,21 +8,36 @@ body {
 h1 {
   margin: 0;
   font-family: 'Dancing Script', cursive;
-  font-size: 70px;
+  font-size: 5.625rem;
+
 }
 
 h2{
   font-family:'Merriweather', serif;
-  font-size: 30px;
+  font-size: 2.50rem;
+}
+
+h3{
+  color: #11999E;
 }
 
  p{
-   color: black;
-   font-size: 20px;
+   font-size: 1.25rem;
    margin:0;
    font-family: 'Montserrat', sans-serif;
  }
+a {
+  color: white;
+  margin: 0 15px 0 15px;
+  font-family: 'Montserrat', sans-serif;
+}
 
+hr{
+  border-top-style: dotted;
+  border-width: 8px;
+  width: 125px
+
+}
 .topcontainer{
   background-color: #00adb5;
   margin-top: 0;
@@ -35,12 +50,17 @@ h2{
 }
 
 .bottomcontainer{
-  background-color: #eaeaea;
+  background-color: #11999E;
+  height: 125px;
+  padding-top: 25px;
+  color: white;
 }
 
 .headertext{
   color: white;
   font-size: 20px;
+  font-weight: normal;
+  line-height: 2;
 }
  .training{
    text-decoration: underline;
@@ -56,4 +76,62 @@ h2{
   width: 200px;
   top: 50px;
   right: 25%;
+}
+
+.profile{
+  width: 50%;
+  margin: auto auto 50px auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skillspics{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skillspics2{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skillssubheader{
+  margin: 75px auto 75px auto;
+}
+.contactsubheader{
+  margin: 75px auto 0 auto;
+}
+.hireme{
+  margin: 50px auto 50px auto;
+}
+.contacttext{
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+.btn {
+background:linear-gradient(to bottom, #11999E 5%, #11999E 100%);
+background-color:#11999E;
+border-radius:15px;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family: 'Montserrat', sans-serif;
+font-size:17px;
+padding:11px 23px;
+text-decoration:none;
+margin: 50px;
+}
+
+.btn:hover {
+
+background:linear-gradient(to bottom, #8FCFD1 5%, #8FCFD1 100%);
+
+background-color:#8FCFD1;
+
 }
